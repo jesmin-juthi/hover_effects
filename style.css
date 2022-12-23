@@ -1,0 +1,315 @@
+.content{
+	width: 100%;
+}
+.img{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.img img{
+	width: 250px;
+}
+.img a{
+	position: relative;
+	display: block;
+	margin: 0 20px 40px;
+}
+/* one  */
+.img .one:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+
+.img .one:hover:after{
+	opacity: .4;
+}
+/* two */
+.img .two:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 100%;
+	opacity: 0;  
+	transform: scale(.5);
+	transition: .5s;
+	border-radius: 50%;
+}
+.img .two:hover:after{
+	transform: scale(1);
+	opacity: 0.4;
+	border-radius: 0;
+}
+/* three */
+.img .three:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 100%;
+	opacity: 0;  
+	transform: scale(0);
+	transition: .5s;
+}
+.img .three:hover:after{
+	transform: scale(1);
+	opacity: 0.4;
+}
+/* four */
+.img .four:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .four:hover:after{
+	opacity: 0.4;
+	width: 100%;
+}
+/* five */
+.img .five:after{
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .five:hover:after{
+	opacity: 0.4;
+	width: 100%;
+}
+/* six */
+.img .six:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .six:hover:after{
+	opacity: 0.4;
+	height: 100%;
+}
+/* seven */
+.img .seven:after{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .seven:hover:after{
+	opacity: 0.4;
+	height: 100%;
+}
+/* eight */
+.img .eight:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .eight:hover:after{
+	opacity: 0.4;
+	height: 100%;
+	width: 100%;
+}
+/* nine */
+.img .nine:after{
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .nine:hover:after{
+	opacity: 0.4;
+	height: 100%;
+	width: 100%;
+}
+/* ten */
+.img .ten:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .ten:hover:after{
+	opacity: 0.4;
+	height: 100%;
+	width: 100%;
+}
+/* eleven */
+.img .eleven:after{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .eleven:hover:after{
+	opacity: 0.4;
+	height: 100%;
+	width: 100%;
+}
+/* twelve */
+.img .twelve:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .twelve:hover:after{
+	opacity: 0.4;
+	width: 50%;
+}
+
+.img .twelve:before{
+	position: absolute;
+	top: 0;
+	right: 0;
+	content: "";
+	background: blue;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .twelve:hover:before{
+	opacity: 0.4;
+	width: 50%;
+}
+/* thirteen */
+.img .thirteen:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: red;
+	width: 100%;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .thirteen:hover:after{
+	opacity: 0.4;
+	height: 50%;
+}
+
+.img .thirteen:before{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: "";
+	background: blue;
+	width: 100%;
+	height: 0;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .thirteen:hover:before{
+	opacity: 0.4;
+	height: 50%;
+}
+/* fourteen */
+.img .fourteen:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: blue;
+	width: 100%;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+	transform: rotate(180deg) scale(0);
+}
+.img .fourteen:hover:before{
+	opacity: 0.4;
+	transform: rotate(0) scale(1);
+}
+/* fifteen */
+.img .fifteen:after{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	content: "";
+	background: red;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .fifteen:hover:after{
+	opacity: 0.4;
+	width: 50%;
+	left: 0;
+}
+
+.img .fifteen:before{
+	position: absolute;
+	top: 0;
+	right: 50%;
+	content: "";
+	background: blue;
+	width: 0;
+	height: 100%;
+	opacity: 0;  
+	transition: .5s;
+}
+.img .fifteen:hover:before{
+	opacity: 0.4;
+	width: 50%;
+	right: 0;
+}
